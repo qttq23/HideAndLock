@@ -1,0 +1,50 @@
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\bin\Release\HideAndLock.exe.config
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\bin\Release\HideAndLock.exe
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\bin\Release\HideAndLock.pdb
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\ChangePasswordWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HiddenFilesWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\MainWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\PasswordWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\App.g.cs
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HideAndLock_MarkupCompile.cache
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HideAndLock_MarkupCompile.lref
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\ChangePasswordWindow.baml
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HiddenFilesWindow.baml
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\MainWindow.baml
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\PasswordWindow.baml
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\Themes\Generic.baml
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HideAndLock.g.resources
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HideAndLock.Properties.Resources.resources
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HideAndLock.csproj.GenerateResource.cache
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HideAndLock.csproj.CoreCompileInputs.cache
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HideAndLock.csproj.CopyComplete
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HideAndLock.exe
+C:\Users\khacv\Desktop\WP.Project3-MultiMediaPlayer\1753102\HideAndLock\obj\Release\HideAndLock.pdb
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\bin\Release\HideAndLock.exe.config
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\bin\Release\HideAndLock.exe
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\bin\Release\HideAndLock.pdb
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\ChangePasswordWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HiddenFilesWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\MainWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\PasswordWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\App.g.cs
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HideAndLock_MarkupCompile.cache
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HideAndLock_MarkupCompile.lref
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\ChangePasswordWindow.baml
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HiddenFilesWindow.baml
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\MainWindow.baml
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\PasswordWindow.baml
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\Themes\Generic.baml
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HideAndLock.g.resources
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HideAndLock.Properties.Resources.resources
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HideAndLock.csproj.GenerateResource.cache
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HideAndLock.csproj.CoreCompileInputs.cache
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HideAndLock.csproj.CopyComplete
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HideAndLock.exe
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\obj\Release\HideAndLock.pdb
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\bin\Release\Microsoft.WindowsAPICodePack.xml
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\bin\Release\Microsoft.WindowsAPICodePack.dll
+C:\Users\khacv\Desktop\WP.Project3-HideAndLock\1753102\Source code\HideAndLock\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll

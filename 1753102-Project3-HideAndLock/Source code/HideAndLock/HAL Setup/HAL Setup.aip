@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="16.2" version="16.2" Modules="simple" RootPath="." Language="en" Id="{9786FEAA-16F6-445F-8589-D2A85163990B}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;FixupComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HideAndLock.exe" Value="..\bin\Release"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HideAndLock.exe.config" Value="..\bin\Release"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HideAndLock.pdb" Value="..\bin\Release"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.WindowsAPICodePack.Shell.dll" Value="..\packages\Microsoft-WindowsAPICodePack-Shell.1.1.3.3\lib\net452"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.WindowsAPICodePack.dll" Value="..\packages\Microsoft-WindowsAPICodePack-Core.1.1.3.3\lib\net452"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HideAndLock.exe" Value="HideAndLock.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HideAndLock.exe.config" Value="HideAndLock.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HideAndLock.pdb" Value="HideAndLock.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.WindowsAPICodePack.Shell.dll" Value="Microsoft.WindowsAPICodePack.Shell.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.WindowsAPICodePack.dll" Value="Microsoft.WindowsAPICodePack.dll"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="gallery_icon.exe" Type="8"/>
+    <ROW Property="Manufacturer" Value="1753102"/>
+    <ROW Property="ProductCode" Value="1033:{3A6981CB-8DFE-4279-9841-487EA4C7F2D7} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Hide And Lock"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{6ED6CE53-8406-4C99-82C6-8A76128F22C6}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="HiddenFiles_Dir" Directory_Parent="HideAndLock_Dir" DefaultDir="HIDDEN~1|HiddenFiles"/>
+    <ROW Directory="HideAndLock_Dir" Directory_Parent="APPDIR" DefaultDir="HIDEAN~1|HideAndLock"/>
+    <ROW Directory="Icons_Dir" Directory_Parent="HideAndLock_Dir" DefaultDir="Icons"/>
+    <ROW Directory="Images_Dir" Directory_Parent="HideAndLock_Dir" DefaultDir="Images"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="Temp_Dir" Directory_Parent="HiddenFiles_Dir" DefaultDir="Temp"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{3E8E223F-4317-474E-AD88-F244E94199C4}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Database.txt" ComponentId="{E95AD9A1-987E-4642-9F76-29747B036416}" Directory_="HideAndLock_Dir" Attributes="0" KeyPath="Microsoft.WindowsAPICodePack.Shell.xml" Type="0"/>
+    <ROW Component="HiddenFiles" ComponentId="{69F39715-0ABD-4DC7-8408-67B71256A802}" Directory_="HiddenFiles_Dir" Attributes="0"/>
+    <ROW Component="HideAndLock_PrimaryOutput" ComponentId="{DA5238E8-40A3-455D-8A1C-7898499DE7E5}" Directory_="HideAndLock_Dir" Attributes="0" KeyPath="HideAndLock.exe"/>
+    <ROW Component="HideAndLock_References" ComponentId="{2814C23D-9DCC-4031-BA70-4FFED4BAC27B}" Directory_="HideAndLock_Dir" Attributes="0" KeyPath="Microsoft.WindowsAPICodePack.Shell.dll"/>
+    <ROW Component="HideAndLock_SymbolsOutput" ComponentId="{04BB15CA-DF6B-49B0-B0E0-1FEF85F75F89}" Directory_="HideAndLock_Dir" Attributes="0" KeyPath="HideAndLock.pdb"/>
+    <ROW Component="ProductInformation" ComponentId="{1206CD18-6234-448B-A948-2D4BDD7B3789}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{5BA88B76-0C1B-4CCB-9A66-F677C776C90B}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="Temp" ComponentId="{FE560871-287A-4831-A6E6-094D2DE9121F}" Directory_="Temp_Dir" Attributes="0"/>
+    <ROW Component="action_icon.png" ComponentId="{9D3202AF-A53A-426F-ADD6-91C120F0D3CA}" Directory_="Icons_Dir" Attributes="0" KeyPath="action_icon.png" Type="0"/>
+    <ROW Component="google.jpg" ComponentId="{8E25CAA4-6615-4E21-8EC8-529C3DFCEE8E}" Directory_="Images_Dir" Attributes="0" KeyPath="google.jpg" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="HideAndLock.exe" Component_="HideAndLock_PrimaryOutput" FileName="HIDEAN~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_HideAndLock.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HideAndLock.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="HideAndLock.exe.config" Component_="HideAndLock_PrimaryOutput" FileName="HIDEAN~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_HideAndLock.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HideAndLock.exe.config&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.WindowsAPICodePack.dll" Component_="HideAndLock_References" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.WindowsAPICodePack.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.WindowsAPICodePack.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.WindowsAPICodePack.Shell.dll" Component_="HideAndLock_References" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.WindowsAPICodePack.Shell.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.WindowsAPICodePack.Shell.dll&gt;" SelfReg="false"/>
+    <ROW File="HideAndLock.pdb" Component_="HideAndLock_SymbolsOutput" FileName="HIDEAN~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_HideAndLock.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HideAndLock.pdb&gt;" SelfReg="false"/>
+    <ROW File="action_icon.png" Component_="action_icon.png" FileName="ACTION~1.PNG|action_icon.png" Attributes="0" SourcePath="..\Samples\Icons\action_icon.png" SelfReg="false"/>
+    <ROW File="Add_icon.png" Component_="action_icon.png" FileName="Add_icon.png" Attributes="0" SourcePath="..\Samples\Icons\Add_icon.png" SelfReg="false"/>
+    <ROW File="Add_icon1.png" Component_="action_icon.png" FileName="ADD_IC~1.PNG|Add_icon1.png" Attributes="0" SourcePath="..\Samples\Icons\Add_icon1.png" SelfReg="false"/>
+    <ROW File="Add_icon2.png" Component_="action_icon.png" FileName="ADD_IC~2.PNG|Add_icon2.png" Attributes="0" SourcePath="..\Samples\Icons\Add_icon2.png" SelfReg="false"/>
+    <ROW File="application_icon1.png" Component_="action_icon.png" FileName="APPLIC~1.PNG|application_icon1.png" Attributes="0" SourcePath="..\Samples\Icons\application_icon1.png" SelfReg="false"/>
+    <ROW File="audio_icon.png" Component_="action_icon.png" FileName="AUDIO_~1.PNG|audio_icon.png" Attributes="0" SourcePath="..\Samples\Icons\audio_icon.png" SelfReg="false"/>
+    <ROW File="exe_icon.png" Component_="action_icon.png" FileName="exe_icon.png" Attributes="0" SourcePath="..\Samples\Icons\exe_icon.png" SelfReg="false"/>
+    <ROW File="file_icon.png" Component_="action_icon.png" FileName="FILE_I~1.PNG|file_icon.png" Attributes="0" SourcePath="..\Samples\Icons\file_icon.png" SelfReg="false"/>
+    <ROW File="folder_icon.png" Component_="action_icon.png" FileName="FOLDER~1.PNG|folder_icon.png" Attributes="0" SourcePath="..\Samples\Icons\folder_icon.png" SelfReg="false"/>
+    <ROW File="folder_icon2.png" Component_="action_icon.png" FileName="FOLDER~2.PNG|folder_icon2.png" Attributes="0" SourcePath="..\Samples\Icons\folder_icon2.png" SelfReg="false"/>
+    <ROW File="gallery_icon.ico" Component_="action_icon.png" FileName="GALLER~1.ICO|gallery_icon.ico" Attributes="0" SourcePath="..\Samples\Icons\gallery_icon.ico" SelfReg="false"/>
+    <ROW File="gallery_icon.png" Component_="action_icon.png" FileName="GALLER~1.PNG|gallery_icon.png" Attributes="0" SourcePath="..\Samples\Icons\gallery_icon.png" SelfReg="false"/>
+    <ROW File="help_icon.png" Component_="action_icon.png" FileName="HELP_I~1.PNG|help_icon.png" Attributes="0" SourcePath="..\Samples\Icons\help_icon.png" SelfReg="false"/>
+    <ROW File="hide_icon.png" Component_="action_icon.png" FileName="HIDE_I~1.PNG|hide_icon.png" Attributes="0" SourcePath="..\Samples\Icons\hide_icon.png" SelfReg="false"/>
+    <ROW File="image_icon.png" Component_="action_icon.png" FileName="IMAGE_~1.PNG|image_icon.png" Attributes="0" SourcePath="..\Samples\Icons\image_icon.png" SelfReg="false"/>
+    <ROW File="information_icon.png" Component_="action_icon.png" FileName="INFORM~1.PNG|information_icon.png" Attributes="0" SourcePath="..\Samples\Icons\information_icon.png" SelfReg="false"/>
+    <ROW File="list_icon.png" Component_="action_icon.png" FileName="LIST_I~1.PNG|list_icon.png" Attributes="0" SourcePath="..\Samples\Icons\list_icon.png" SelfReg="false"/>
+    <ROW File="lock_icon.png" Component_="action_icon.png" FileName="LOCK_I~1.PNG|lock_icon.png" Attributes="0" SourcePath="..\Samples\Icons\lock_icon.png" SelfReg="false"/>
+    <ROW File="multifile_icon.png" Component_="action_icon.png" FileName="MULTIF~1.PNG|multifile_icon.png" Attributes="0" SourcePath="..\Samples\Icons\multifile_icon.png" SelfReg="false"/>
+    <ROW File="open_icon.png" Component_="action_icon.png" FileName="OPEN_I~1.PNG|open_icon.png" Attributes="0" SourcePath="..\Samples\Icons\open_icon.png" SelfReg="false"/>
+    <ROW File="open_icon2.png" Component_="action_icon.png" FileName="OPEN_I~2.PNG|open_icon2.png" Attributes="0" SourcePath="..\Samples\Icons\open_icon2.png" SelfReg="false"/>
+    <ROW File="option_icon.png" Component_="action_icon.png" FileName="OPTION~1.PNG|option_icon.png" Attributes="0" SourcePath="..\Samples\Icons\option_icon.png" SelfReg="false"/>
+    <ROW File="option_icon1.png" Component_="action_icon.png" FileName="OPTION~2.PNG|option_icon1.png" Attributes="0" SourcePath="..\Samples\Icons\option_icon1.png" SelfReg="false"/>
+    <ROW File="option_icon2.png" Component_="action_icon.png" FileName="OPTION~3.PNG|option_icon2.png" Attributes="0" SourcePath="..\Samples\Icons\option_icon2.png" SelfReg="false"/>
+    <ROW File="preview_icon.png" Component_="action_icon.png" FileName="PREVIE~1.PNG|preview_icon.png" Attributes="0" SourcePath="..\Samples\Icons\preview_icon.png" SelfReg="false"/>
+    <ROW File="preview_icon2.png" Component_="action_icon.png" FileName="PREVIE~2.PNG|preview_icon2.png" Attributes="0" SourcePath="..\Samples\Icons\preview_icon2.png" SelfReg="false"/>
+    <ROW File="refresh_icon.png" Component_="action_icon.png" FileName="REFRES~1.PNG|refresh_icon.png" Attributes="0" SourcePath="..\Samples\Icons\refresh_icon.png" SelfReg="false"/>
+    <ROW File="refresh_icon2.png" Component_="action_icon.png" FileName="REFRES~2.PNG|refresh_icon2.png" Attributes="0" SourcePath="..\Samples\Icons\refresh_icon2.png" SelfReg="false"/>
+    <ROW File="removeall_icon.png" Component_="action_icon.png" FileName="REMOVE~1.PNG|removeall_icon.png" Attributes="0" SourcePath="..\Samples\Icons\removeall_icon.png" SelfReg="false"/>
+    <ROW File="remove_icon.png" Component_="action_icon.png" FileName="REMOVE~2.PNG|remove_icon.png" Attributes="0" SourcePath="..\Samples\Icons\remove_icon.png" SelfReg="false"/>
+    <ROW File="save_icon.png" Component_="action_icon.png" FileName="SAVE_I~1.PNG|save_icon.png" Attributes="0" SourcePath="..\Samples\Icons\save_icon.png" SelfReg="false"/>
+    <ROW File="start_icon.png" Component_="action_icon.png" FileName="START_~1.PNG|start_icon.png" Attributes="0" SourcePath="..\Samples\Icons\start_icon.png" SelfReg="false"/>
+    <ROW File="start_icon2.png" Component_="action_icon.png" FileName="START_~2.PNG|start_icon2.png" Attributes="0" SourcePath="..\Samples\Icons\start_icon2.png" SelfReg="false"/>
+    <ROW File="Unhide_icon.png" Component_="action_icon.png" FileName="UNHIDE~1.PNG|Unhide_icon.png" Attributes="0" SourcePath="..\Samples\Icons\Unhide_icon.png" SelfReg="false"/>
+    <ROW File="upDirection_icon.png" Component_="action_icon.png" FileName="UPDIRE~1.PNG|upDirection_icon.png" Attributes="0" SourcePath="..\Samples\Icons\upDirection_icon.png" SelfReg="false"/>
+    <ROW File="video_icon.png" Component_="action_icon.png" FileName="VIDEO_~1.PNG|video_icon.png" Attributes="0" SourcePath="..\Samples\Icons\video_icon.png" SelfReg="false"/>
+    <ROW File="video_icon2.png" Component_="action_icon.png" FileName="VIDEO_~2.PNG|video_icon2.png" Attributes="0" SourcePath="..\Samples\Icons\video_icon2.png" SelfReg="false"/>
+    <ROW File="write_icon.png" Component_="action_icon.png" FileName="WRITE_~1.PNG|write_icon.png" Attributes="0" SourcePath="..\Samples\Icons\write_icon.png" SelfReg="false"/>
+    <ROW File="google.jpg" Component_="google.jpg" FileName="google.jpg" Attributes="0" SourcePath="..\Samples\Images\google.jpg" SelfReg="false"/>
+    <ROW File="helpicon.png" Component_="google.jpg" FileName="helpicon.png" Attributes="0" SourcePath="..\Samples\Images\helpicon.png" SelfReg="false"/>
+    <ROW File="parrot.jpg" Component_="google.jpg" FileName="parrot.jpg" Attributes="0" SourcePath="..\Samples\Images\parrot.jpg" SelfReg="false"/>
+    <ROW File="removeicon.png" Component_="google.jpg" FileName="REMOVE~1.PNG|removeicon.png" Attributes="0" SourcePath="..\Samples\Images\removeicon.png" SelfReg="false"/>
+    <ROW File="sheep.jpg" Component_="google.jpg" FileName="sheep.jpg" Attributes="0" SourcePath="..\Samples\Images\sheep.jpg" SelfReg="false"/>
+    <ROW File="Microsoft.WindowsAPICodePack.Shell.xml" Component_="Database.txt" FileName="MICROS~1.XML|Microsoft.WindowsAPICodePack.Shell.xml" Attributes="0" SourcePath="..\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml" SelfReg="false"/>
+    <ROW File="Microsoft.WindowsAPICodePack.xml" Component_="Database.txt" FileName="MICROS~2.XML|Microsoft.WindowsAPICodePack.xml" Attributes="0" SourcePath="..\bin\Debug\Microsoft.WindowsAPICodePack.xml" SelfReg="false"/>
+    <ROW File="Database.txt" Component_="Database.txt" FileName="Database.txt" Attributes="0" SourcePath="..\Samples\Database.txt" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_HideAndLock.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_HideAndLock.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_HideAndLock.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_HideAndLock.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_HideAndLock.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_HideAndLock.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_HideAndLock.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_HideAndLock.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_HideAndLock.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.WindowsAPICodePack.Shell.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.WindowsAPICodePack.Shell.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.WindowsAPICodePack.Shell.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.WindowsAPICodePack.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.WindowsAPICodePack.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.WindowsAPICodePack.dll]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+    <ROW Directory_="HiddenFiles_Dir" Component_="HiddenFiles" ManualDelete="false"/>
+    <ROW Directory_="Temp_Dir" Component_="Temp" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="HideAndLock_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+    <ROW Feature_="MainFeature" Component_="HideAndLock_References"/>
+    <ROW Feature_="MainFeature" Component_="HideAndLock_SymbolsOutput"/>
+    <ROW Feature_="MainFeature" Component_="HiddenFiles"/>
+    <ROW Feature_="MainFeature" Component_="Temp"/>
+    <ROW Feature_="MainFeature" Component_="Database.txt"/>
+    <ROW Feature_="MainFeature" Component_="action_icon.png"/>
+    <ROW Feature_="MainFeature" Component_="google.jpg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="gallery_icon.exe" SourcePath="..\gallery_icon.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="HideAndLock" Directory_="SHORTCUTDIR" Name="HIDEAN~1|HideAndLock" Component_="HideAndLock_PrimaryOutput" Target="[#HideAndLock.exe]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{150d2381-9500-4a29-a180-a397933fb6b6}" ProjectName="HideAndLock" OutputGroup="PrimaryOutput" OutputFile="HideAndLock.exe" OutputFileShortcut="HideAndLock"/>
+    <ROW ProjectId="{150d2381-9500-4a29-a180-a397933fb6b6}" ProjectName="HideAndLock" OutputGroup="PrimaryOutput" OutputFile="HideAndLock.exe.config"/>
+    <ROW ProjectId="{150d2381-9500-4a29-a180-a397933fb6b6}" ProjectName="HideAndLock" OutputGroup="References" OutputFile="Microsoft.WindowsAPICodePack.dll"/>
+    <ROW ProjectId="{150d2381-9500-4a29-a180-a397933fb6b6}" ProjectName="HideAndLock" OutputGroup="References" OutputFile="Microsoft.WindowsAPICodePack.Shell.dll"/>
+    <ROW ProjectId="{150d2381-9500-4a29-a180-a397933fb6b6}" ProjectName="HideAndLock" OutputGroup="SymbolsOutput" OutputFile="HideAndLock.pdb"/>
+  </COMPONENT>
+</DOCUMENT>
